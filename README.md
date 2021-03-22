@@ -21,6 +21,7 @@ console.table(result)
 ```
 
 <h2>Sugestões para continuidade do projeto</h2>
+
 - O suporte atualmente é somente a **arrays**. Sugiro permitir o uso do query builder a partir de qualquer tipo de coleção de dados (Set, Map, etc)
 - Permitir combinação de coleções, similarmente à cláusula INNER JOIN do SQL.
 
