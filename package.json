@@ -1,0 +1,17 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-json-modules src/index.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:cov": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "26"
+  }
+}
